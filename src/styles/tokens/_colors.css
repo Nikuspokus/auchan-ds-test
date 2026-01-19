@@ -1,0 +1,9 @@
+:root {
+  /* Brand Colors */
+  --adn-color-primary: #E1001A; /* Le rouge Auchan */
+  --adn-color-secondary: #004D95; /* Le bleu */
+  
+  /* Neutral Colors */
+  --adn-color-white: #FFFFFF;
+  --adn-color-black: #000000;
+}

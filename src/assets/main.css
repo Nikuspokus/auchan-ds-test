@@ -1,0 +1,36 @@
+/* src/assets/main.css */
+
+/* Exemple de Token (Couleurs Auchan) */
+:root {
+  --a-color-primary: #E1001A; /* Rouge Auchan */
+  --a-color-white: #FFFFFF;
+  --a-color-black: #000000;
+}
+
+/* Base HTML Core */
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.a-button {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: outline 0.2s ease;
+}
+
+/* Modificateur BEM pour le style primaire */
+.a-button--primary {
+  background-color: var(--a-color-primary);
+  color: var(--a-color-white);
+}
+
+/* Accessibilité : Focus visible pour la navigation clavier */
+.a-button:focus-visible {
+  outline: 3px solid var(--a-color-black);
+  outline-offset: 2px;
+}
